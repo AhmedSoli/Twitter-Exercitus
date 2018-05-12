@@ -1,0 +1,27 @@
+{
+  "name": "tawfik",
+  "version": "1.0.0",
+  "description": "Simple Twitter Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedSoli/Tawfik.git"
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "social"
+  ],
+  "author": "A. Soliman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AhmedSoli/Tawfik/issues"
+  },
+  "homepage": "https://github.com/AhmedSoli/Tawfik#readme",
+  "dependencies": {
+    "twitter": "^1.7.1"
+  }
+}
