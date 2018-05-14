@@ -3,11 +3,11 @@ var Twitter = require('twitter');
 var config = require('./config.js');
 var T = new Twitter(config);
 var stream = T.stream('statuses/filter', {
-    track: "monero"
+    track: "ethereum"
 });
 stream.on('data', function(tweet) {
     params = {
-        slug: "monero",
+        slug: "ethereum",
         user_id: tweet.user.id_str,
         screen_name: tweet.user.screen_name,
         owner_screen_name: "AltumAlien",
